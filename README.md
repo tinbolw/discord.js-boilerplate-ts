@@ -4,6 +4,6 @@ The majority of the code is taken verbatim from the discord.js [official guide](
 
 For further details, read the [official guide](https://discordjs.guide/).
 
-This project is not in any way officially connected or affiliated with Discord or discord.js.
+This project is not in any way officially connected to or affiliated with Discord or discord.js.
 
 [The JavaScript version](https://github.com/tinbolw/discord.js-boilerplate)
