@@ -1,20 +1,5 @@
 {
-  "name": "discord.js-boilerplate-ts",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "tsx --env-file=.env ./src/deploy-guild.ts && tsx --env-file=.env ./src/index.ts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tinbolw/discord.js-boilerplate-ts.git"
-  },
-  "keywords": [],
-  "author": "tinbolw",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/tinbolw/discord.js-boilerplate-ts/issues"
-  },
-  "homepage": "https://github.com/tinbolw/discord.js-boilerplate-ts#readme",
   "dependencies": {
     "discord.js": "^14.26.4"
   },
@@ -22,5 +7,11 @@
     "@types/node": "^26.0.1",
     "tsx": "^4.22.4",
     "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "dev": "tsx --env-file=.env ./src/deploy-guild.ts && tsx --env-file=.env ./src/index.ts",
+    "test": "tsc && node --env-file=.env ./dist/deploy-guild.js && node --env-file=.env ./dist/ci-test.js",
+    "build": "tsc",
+    "start": "tsc && node --env-file=.env ./dist/deploy-global.js && node --env-file=.env ./dist/index.js"
   }
 }
