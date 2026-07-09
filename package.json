@@ -6,7 +6,7 @@
   "devDependencies": {
     "@types/node": "^26.1.1",
     "tsx": "^4.23.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "scripts": {
     "dev": "tsx --env-file=.env ./src/deploy-guild.ts && tsx --env-file=.env ./src/index.ts",
