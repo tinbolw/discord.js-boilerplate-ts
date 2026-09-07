@@ -4,7 +4,7 @@
     "discord.js": "^14.27.0"
   },
   "devDependencies": {
-    "@types/node": "^26.4.0",
+    "@types/node": "^26.4.1",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2"
   },
