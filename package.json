@@ -13,5 +13,8 @@
     "test": "tsc && node --env-file=.env ./dist/deploy-guild.js && node --env-file=.env ./dist/ci-test.js",
     "build": "tsc",
     "start": "tsc && node --env-file=.env ./dist/deploy-global.js && node --env-file=.env ./dist/index.js"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
   }
 }
